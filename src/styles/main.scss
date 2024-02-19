@@ -1,0 +1,26 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://vuetifyjs.com/features/sass-variables/`
+// @use 'vuetify/settings' with (
+//   $color-pack: false
+// );
+
+.main{
+  background-color: #F7F7F6;
+  height: 100%;
+}
+
+.v-application .elevation-1 {
+    box-shadow: 0 3px 10px -2px rgb(85 85 85 / 8%), 0 2px 20px 0 rgb(85 85 85 / 6%), 0 1px 30px 0 rgb(85 85 85 / 3%) !important;
+  }
+.v-expansion-panel::before {
+    box-shadow: 0 2px 10px -1px rgba(85,85,85,.08),0 1px 10px 0 rgba(85,85,85,.06),0 1px 30px 0 rgba(85,85,85,.03)!important;
+}
+.v-expansion-panel-title__overlay {
+  opacity: 0 !important;
+  background-color: transparent !important;
+}
